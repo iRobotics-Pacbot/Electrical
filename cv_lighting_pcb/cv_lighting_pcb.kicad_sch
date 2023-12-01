@@ -2438,14 +2438,6 @@
     (uuid fe17d704-81fd-4d9f-a7f1-752dae884503)
   )
 
-  (text "Pin headers to bypass optocoupler?" (at 86.36 143.51 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8d1a409d-5536-4be8-80f2-a4d5b1ded2fc)
-  )
-  (text "Check again if 1K ohm is correct" (at 41.91 113.03 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d8dbdf62-2859-42e2-a8b9-7b4ca6a98871)
-  )
   (text "Control dimming: optocoupler or something\nSo far this circuit has 8 leds and one current driver"
     (at 90.17 85.09 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
