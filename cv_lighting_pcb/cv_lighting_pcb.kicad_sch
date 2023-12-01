@@ -2438,6 +2438,14 @@
     (uuid fe17d704-81fd-4d9f-a7f1-752dae884503)
   )
 
+  (text "Check that 1k ohm is correct" (at 45.72 113.03 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 34c5c967-1b77-4b10-b143-2304e20820f5)
+  )
+  (text "Add pin headers for optocoupler\n" (at 74.93 143.51 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 68bfdebf-b8c6-4bd7-8058-24a3e1a7a5ca)
+  )
   (text "Control dimming: optocoupler or something\nSo far this circuit has 8 leds and one current driver"
     (at 90.17 85.09 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
