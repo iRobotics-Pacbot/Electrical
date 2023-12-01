@@ -1,9 +1,9 @@
 (kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "+30V" (power) (in_bom no) (on_board no)
-    (property "Reference" "~" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
+  (symbol "+32V" (in_bom yes) (on_board yes)
+    (property "Reference" "+32V" (at 0 0 0)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "+30V" (at 0 0 0)
+    (property "Value" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 0 0 0)
@@ -12,7 +12,7 @@
     (property "Datasheet" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "+30V_0_1"
+    (symbol "+32V_0_1"
       (polyline
         (pts
           (xy -0.762 -5.08)
@@ -38,9 +38,9 @@
         (fill (type none))
       )
     )
-    (symbol "+30V_1_1"
+    (symbol "+32V_1_1"
       (pin power_in line (at 0 -6.35 90) (length 0) hide
-        (name "+30V" (effects (font (size 1.27 1.27))))
+        (name "+32V" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
@@ -256,37 +256,27 @@
     (property "Datasheet" "" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "Camera_0_1"
+      (rectangle (start -7.62 -2.54) (end 8.89 -13.97)
+        (stroke (width 0) (type default))
+        (fill (type none))
+      )
+    )
     (symbol "Camera_1_1"
-      (rectangle (start -1.6764 -8.763) (end -2.54 -9.017)
-        (stroke (width 0.1524) (type default))
-        (fill (type outline))
+      (pin output line (at 11.43 -6.35 180) (length 2.54)
+        (name "3" (effects (font (size 1.27 1.27))))
+        (number "" (effects (font (size 1.27 1.27))))
       )
-      (rectangle (start -1.6764 -3.683) (end -2.54 -3.937)
-        (stroke (width 0.1524) (type default))
-        (fill (type outline))
+      (pin output line (at 11.43 -11.43 180) (length 2.54)
+        (name "4" (effects (font (size 1.27 1.27))))
+        (number "" (effects (font (size 1.27 1.27))))
       )
-      (polyline
-        (pts
-          (xy -1.27 -8.89)
-          (xy -1.6764 -8.89)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.27 -3.81)
-          (xy -1.6764 -3.81)
-        )
-        (stroke (width 0.1524) (type default))
-        (fill (type none))
-      )
-      (pin passive line (at 2.54 -3.81 180) (length 3.81)
-        (name "PWM_Input" (effects (font (size 1.27 1.27))))
+      (pin input line (at -10.16 -6.35 0) (length 2.54)
+        (name "Camera_input" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at 2.54 -8.89 180) (length 3.81)
-        (name "PWM_GND" (effects (font (size 1.27 1.27))))
+      (pin input line (at -10.16 -11.43 0) (length 2.54)
+        (name "GND" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
     )

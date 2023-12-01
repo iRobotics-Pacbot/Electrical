@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "cv_lighting_footprints")(type "KiCad")(uri "${KIPRJMOD}/cv_lighting_footprints.pretty")(options "")(descr ""))
+)
