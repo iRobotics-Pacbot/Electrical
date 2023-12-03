@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Lighting PCB")
+    (date "2023-12-02")
+    (company "Illini Pacbot Team")
+  )
+
   (lib_symbols
     (symbol "D_Zener_1" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
