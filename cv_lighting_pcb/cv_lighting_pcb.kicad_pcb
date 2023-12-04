@@ -6,7 +6,7 @@
 
   (paper "A4")
   (layers
-    (0 "F.Cu" signal)
+    (0 "F.Cu" jumper)
     (31 "B.Cu" signal)
     (32 "B.Adhes" user "B.Adhesive")
     (33 "F.Adhes" user "F.Adhesive")
@@ -53,7 +53,7 @@
     )
     (pad_to_mask_clearance 0)
     (pcbplotparams
-      (layerselection 0x00010fc_ffffffff)
+      (layerselection 0x00010fc_7fffffff)
       (plot_on_all_layers_selection 0x0000000_00000000)
       (disableapertmacros false)
       (usegerberextensions false)
@@ -82,7 +82,7 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory "")
     )
@@ -111,7 +111,7 @@
 
   (footprint "cv_lighting_footprints:D3V3M1U2S9-7" (layer "F.Cu")
     (tstamp 11d7afa1-3f23-4049-81b3-71d07baa2f7d)
-    (at 179.8828 130.7084)
+    (at 190.6778 149.7584)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Zener diode")
@@ -148,7 +148,7 @@
 
   (footprint "cv_lighting_footprints:LED_SFH4715AS" (layer "F.Cu")
     (tstamp 214169b5-4a3c-4ca9-8938-0bb7ab80ae5b)
-    (at 210.185 110.635)
+    (at 237.49 125.095)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Light emitting diode")
@@ -264,7 +264,7 @@
 
   (footprint "cv_lighting_footprints:D3V3M1U2S9-7" (layer "F.Cu")
     (tstamp 217a6f5d-344a-46b5-8c85-72e98c582b6e)
-    (at 156.3878 74.1934)
+    (at 160.1978 62.1284)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Zener diode")
@@ -301,7 +301,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tstamp 29d15fb2-c88a-4723-b203-1badeb6191fb)
-    (at 133.5 87.26)
+    (at 131.0425 96.395)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
@@ -342,9 +342,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp e533837b-8ada-4df7-9ba5-da267c927da3))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 1e88af79-b6a2-4a8f-b6bd-96c0cb048f40))
-    (pad "1" smd roundrect (at -1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.212766)
+    (pad "1" smd roundrect (at -1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 13 "+30V") (pintype "passive") (tstamp 31398adf-4f1e-477c-9f1e-9d781e4c1691))
-    (pad "2" smd roundrect (at 1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.212766)
+    (pad "2" smd roundrect (at 1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 16 "GND") (pintype "passive") (tstamp 30340bdb-4c0d-4e9c-9278-ffeade8402be))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -355,7 +355,7 @@
 
   (footprint "cv_lighting_footprints:D3V3M1U2S9-7" (layer "F.Cu")
     (tstamp 2a0c196b-c739-4010-8f60-85f1c8fc469e)
-    (at 204.6478 122.4534)
+    (at 227.7872 135.1534)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Zener diode")
@@ -392,7 +392,7 @@
 
   (footprint "cv_lighting_footprints:D3V3M1U2S9-7" (layer "F.Cu")
     (tstamp 4166c544-e896-4218-9f14-950472b133a1)
-    (at 156.6672 121.1834)
+    (at 161.4678 138.9634)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Zener diode")
@@ -429,7 +429,7 @@
 
   (footprint "cv_lighting_footprints:VO617A" (layer "F.Cu")
     (tstamp 4ea302d6-4f19-4e10-8187-ef7031e71e4c)
-    (at 121.869999 108.2708)
+    (at 125.005 114.5005)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "DC Optocoupler, Vce 70V, CTR 200-400% @ 5mA, Viso 5000Vrms, DIP4")
@@ -486,7 +486,7 @@
 
   (footprint "cv_lighting_footprints:3021_Buckpuck" (layer "F.Cu")
     (tstamp 66b6aef1-3284-4ba6-94ec-cabea59a273c)
-    (at 100.965 78.8525)
+    (at 118.745 53.1625)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (path "/2ec80663-5f24-486b-ad2d-84c7da7c9a27")
@@ -550,7 +550,7 @@
 
   (footprint "cv_lighting_footprints:35WR5KLFTR" (layer "F.Cu")
     (tstamp 6e60809b-bde3-457c-8a62-e99fe78e71e2)
-    (at 123.459999 121.2253)
+    (at 126.595 127.455)
     (tags "35WR5KLFTR ")
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
@@ -644,7 +644,7 @@
 
   (footprint "cv_lighting_footprints:D3V3M1U2S9-7" (layer "F.Cu")
     (tstamp 78a73ca3-a22e-4507-b982-624bbb3f9a2c)
-    (at 148.4122 98.9584)
+    (at 142.6972 101.4984)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Zener diode")
@@ -681,7 +681,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tstamp 7e51fbf9-69dc-4cd1-9867-64e2d99ff7ed)
-    (at 117.459999 122.2253)
+    (at 120.595 128.455)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
@@ -722,9 +722,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp e9078140-81ce-44d6-a88b-13d34bb8b134))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 656302d6-c2e7-4cd9-b9d2-86c2732b0d25))
-    (pad "1" smd roundrect (at -1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "1" smd roundrect (at -1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 15 "Net-(U2-PWM_Input)") (pintype "passive") (tstamp 545330fc-5b9a-4e83-9623-f6df4b29d356))
-    (pad "2" smd roundrect (at 1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "2" smd roundrect (at 1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 14 "Net-(R3-Pad2)") (pintype "passive") (tstamp 374ec411-984f-4594-9d27-99c2f61e6e2c))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -735,7 +735,7 @@
 
   (footprint "cv_lighting_footprints:TENSILITY_54-00164" (layer "F.Cu")
     (tstamp 805856d5-6e43-4981-b133-c16fe76022eb)
-    (at 123.825 93.98)
+    (at 117.475 99.06)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (path "/20c54f20-05c5-4848-b177-a29228466680")
@@ -822,7 +822,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left" (layer "F.Cu")
     (tstamp 9104d0e7-1aa7-427a-8ef9-97e35684d470)
-    (at 94.87 114.3)
+    (at 121.03 144.49)
     (descr "surface-mounted straight socket strip, 1x02, 2.54mm pitch, single row, style 1 (pin 1 left) (https://cdn.harwin.com/pdfs/M20-786.pdf), script generated")
     (tags "Surface mounted socket strip SMD 1x02 2.54mm single row style1 pin1 left")
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
@@ -898,7 +898,7 @@
 
   (footprint "cv_lighting_footprints:LED_SFH4715AS" (layer "F.Cu")
     (tstamp 995d9098-81d3-43dd-8774-cb09ee07e03f)
-    (at 193.04 70.34)
+    (at 213.36 58.565)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Light emitting diode")
@@ -1014,7 +1014,7 @@
 
   (footprint "cv_lighting_footprints:LED_SFH4715AS" (layer "F.Cu")
     (tstamp 9d0e7ad7-1dd8-45ad-a1e1-422ec713e276)
-    (at 148.59 113.81)
+    (at 147.955 127.635)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Light emitting diode")
@@ -1130,7 +1130,7 @@
 
   (footprint "cv_lighting_footprints:LED_SFH4715AS" (layer "F.Cu")
     (tstamp adea1f03-d853-48ba-8a42-6e9809b27374)
-    (at 210.82 88.2869)
+    (at 238.76 86.995)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Light emitting diode")
@@ -1246,7 +1246,7 @@
 
   (footprint "cv_lighting_footprints:D3V3M1U2S9-7" (layer "F.Cu")
     (tstamp b78f6b43-fb24-4de0-9bf4-6af6a52b524f)
-    (at 205.2828 74.8284)
+    (at 227.1522 64.6684)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Zener diode")
@@ -1283,7 +1283,7 @@
 
   (footprint "cv_lighting_footprints:LED_SFH4715AS" (layer "F.Cu")
     (tstamp b929cc6f-b037-4b0c-80b8-4fc29c525645)
-    (at 169.2402 69.6528)
+    (at 174.625 57.93)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Light emitting diode")
@@ -1399,7 +1399,7 @@
 
   (footprint "cv_lighting_footprints:D3V3M1U2S9-7" (layer "F.Cu")
     (tstamp ba54058c-613a-42c6-a2b9-e4fdc2310df9)
-    (at 180.975 66.04)
+    (at 195.4022 50.6984)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Zener diode")
@@ -1436,7 +1436,7 @@
 
   (footprint "cv_lighting_footprints:LED_SFH4715AS" (layer "F.Cu")
     (tstamp c0086a7a-14b5-4ee4-b7a8-f70921b15259)
-    (at 167.64 132.86)
+    (at 173.99 149.86)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Light emitting diode")
@@ -1552,7 +1552,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tstamp c05290c0-5c3d-4254-a78c-b4b3f4e09c06)
-    (at 133.5 90.27)
+    (at 131.445 103.85)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
@@ -1593,9 +1593,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 46a8661d-f7b5-46c8-8c23-7514fd302bd3))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 29930e16-f956-4665-b92a-01f445bae307))
-    (pad "1" smd roundrect (at -1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.212766)
+    (pad "1" smd roundrect (at -1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 2 "Net-(D1-A)") (pintype "passive") (tstamp 19584355-112f-49ed-be5b-730bff7a94da))
-    (pad "2" smd roundrect (at 1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.212766)
+    (pad "2" smd roundrect (at 1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 9 "Net-(D15-A)") (pintype "passive") (tstamp 4a5d695c-1d38-45ec-aef1-70b09a368c66))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -1606,7 +1606,7 @@
 
   (footprint "cv_lighting_footprints:LED_SFH4715AS" (layer "F.Cu")
     (tstamp c7f440d8-5cb4-4739-b6f8-f06824cd7a93)
-    (at 193.04 132.86)
+    (at 212.725 149.86)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Light emitting diode")
@@ -1722,7 +1722,7 @@
 
   (footprint "cv_lighting_footprints:D3V3M1U2S9-7" (layer "F.Cu")
     (tstamp c8224ff4-9e4c-41d0-a5be-110609b5b718)
-    (at 211.2772 97.0534)
+    (at 242.3922 104.6734)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Zener diode")
@@ -1759,7 +1759,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tstamp cf9d3737-1f63-4551-b47a-e8013085f656)
-    (at 111.959999 122.2253)
+    (at 115.095 128.455)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
@@ -1800,9 +1800,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 6a839419-8eeb-4e27-bd48-fc1009eb2cca))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 71b64d2c-bbb6-4909-8099-d60c1f8e03a8))
-    (pad "1" smd roundrect (at -1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "1" smd roundrect (at -1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 11 "Net-(Q1-B)") (pintype "passive") (tstamp dfa80471-89b2-40b5-945a-152aaa9eccac))
-    (pad "2" smd roundrect (at 1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "2" smd roundrect (at 1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 10 "Net-(Q1-E)") (pintype "passive") (tstamp 435ac2b1-3a2b-42b1-8930-66ada7ba3547))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -1813,7 +1813,7 @@
 
   (footprint "cv_lighting_footprints:LED_SFH4715AS" (layer "F.Cu")
     (tstamp d1fc2faa-ebf0-4c2b-93bc-dc49cbe70adb)
-    (at 148.082 88.7222)
+    (at 146.05 84.455)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Light emitting diode")
@@ -1929,7 +1929,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tstamp e0642c97-3794-4d92-81dd-0720f26b7f03)
-    (at 105.959999 122.2253)
+    (at 109.095 128.455)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
@@ -1970,9 +1970,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 79fd34ed-9afd-4a2f-a3fe-67a0121ec4d2))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 4aec1cfd-98f0-477a-86d4-e93d6deefcb7))
-    (pad "1" smd roundrect (at -1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "1" smd roundrect (at -1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 10 "Net-(Q1-E)") (pintype "passive") (tstamp 4c17b63a-f62c-42c5-ab56-422c76b6176b))
-    (pad "2" smd roundrect (at 1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.208333)
+    (pad "2" smd roundrect (at 1 0) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2083333333)
       (net 11 "Net-(Q1-B)") (pintype "passive") (tstamp 8aface1a-12ca-4fe7-9e55-d80b63fb1a18))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -1983,7 +1983,7 @@
 
   (footprint "cv_lighting_footprints:2N3906" (layer "F.Cu")
     (tstamp ef3e3452-bcb0-4232-88e9-e9616206c940)
-    (at 108.459999 113.7253)
+    (at 111.595 119.955)
     (property "Sheetfile" "cv_lighting_pcb.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92")
@@ -2036,5 +2036,8 @@
     (pad "3" smd rect (at -2.54 -1.6025) (size 1.02 1.905) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 12 "Net-(Q1-C)") (pinfunction "C") (pintype "passive") (solder_mask_margin 0.102) (tstamp e8613c18-e1aa-4fd6-b1f9-7278c8f2592a))
   )
+
+  (gr_circle (center 192.405 104.14) (end 204.47 152.4)
+    (stroke (width 0.2) (type default)) (fill none) (layer "F.Cu") (tstamp 0775a348-4934-49e8-9ff3-3860687d8c7f))
 
 )
