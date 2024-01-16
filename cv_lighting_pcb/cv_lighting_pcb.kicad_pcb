@@ -1584,7 +1584,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/a47b4282-5cb3-4c4e-857e-fabeea362edb")
     (attr smd)
-    (fp_text reference "R2" (at 0 -1.65) (layer "F.Fab")
+    (fp_text reference "R1" (at 0 -1.65) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b36d532c-4815-4621-a58d-5ddb7a88cc1c)
     )
