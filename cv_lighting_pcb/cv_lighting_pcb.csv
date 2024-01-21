@@ -1,0 +1,10 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"D13,D17,D12,D14,D15,D10,D9,D11";"D3V3M1U2S9-7";8;"D_TVS";;;
+2;"D4,D2,D7,D3,D1,D6,D5,D8";"LED_SFH4715AS";8;"LED";;;
+3;"C1,C2";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";2;"0.1uF";;;
+4;"U1";"3021_Buckpuck";1;"Current Driver";;;
+5;"RV1";"35WR5KLFTR";1;"35WR5KLFTR";;;
+6;"U4";"TENSILITY_54-00164";1;"Barrel Jack";;;
+7;"U2";"PinSocket_1x02_P2.54mm_Vertical_SMD_Pin1Left";1;"Camera Input";;;
+8;"R1";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";1;"5K";;;
+9;"Q2";"MMBT3904";1;"MMBT3904";;;
