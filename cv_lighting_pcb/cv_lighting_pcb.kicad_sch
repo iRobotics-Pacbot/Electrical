@@ -2314,12 +2314,12 @@
     (property "Datasheet" "" (at 106.68 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b6172bab-2596-4371-967f-6617e8151557))
-    (pin "2" (uuid 8b86a445-f3c5-49c9-b76d-a36a9cf369e4))
-    (pin "3" (uuid 05be5a1a-d098-4a5f-8cbe-32c504075f30))
-    (pin "4" (uuid 1741d161-8667-4594-a34f-62a8c64b126c))
-    (pin "5" (uuid f444a82a-f0c5-4a5f-bf69-08be7a8344fb))
-    (pin "7" (uuid bb603b93-2510-41a8-8971-e1216bdc5993))
+    (pin "1" (uuid 35828b1d-8bc4-4cd7-976b-6265b834aafb))
+    (pin "2" (uuid d350c873-0906-4557-85ce-8c7a15110371))
+    (pin "3" (uuid b97dfab0-08e5-447f-baeb-60a46dbbf39c))
+    (pin "4" (uuid 71e29a63-c9bc-4af9-abcd-148ec54a8c34))
+    (pin "5" (uuid 56892744-7f95-4fb1-9ec9-c11e6ddc433f))
+    (pin "7" (uuid 9142dea9-1206-4a68-ab56-ddf6da6a91b7))
     (instances
       (project "cv_lighting_pcb"
         (path "/d003750a-5843-4e2f-8a13-c4462072ff66"
