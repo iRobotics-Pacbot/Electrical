@@ -1,0 +1,65 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 0f135ecd-657b-41d0-bfee-887082f317c0)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "tb-libs:Test_Symbol" (in_bom yes) (on_board yes)
+      (property "Reference" "U" (id 0) (at 0 8.89 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Test_Symbol" (id 1) (at 0 11.43 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Test_Symbol_0_1"
+        (rectangle (start -6.35 6.35) (end 6.35 -10.16)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "Test_Symbol_1_1"
+        (pin unspecified line (at -8.89 3.81 0) (length 2.54)
+          (name "test1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin unspecified line (at 8.89 3.81 180) (length 2.54)
+          (name "test2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+
+  (symbol (lib_id "tb-libs:Test_Symbol") (at 93.98 68.58 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid ce29fbe7-3bb0-4da1-85b6-4a893bfc227e)
+    (property "Reference" "U?" (id 0) (at 93.98 57.15 0))
+    (property "Value" "Test_Symbol" (id 1) (at 93.98 59.69 0))
+    (property "Footprint" "" (id 2) (at 93.98 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 93.98 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6203f8f1-6e30-4b2e-a02d-bebe79b1f3be))
+    (pin "2" (uuid c709e586-a961-4d72-b3bb-a957cdcb6a4a))
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
+  (symbol_instances
+    (path "/ce29fbe7-3bb0-4da1-85b6-4a893bfc227e"
+      (reference "U?") (unit 1) (value "Test_Symbol") (footprint "")
+    )
+  )
+)
