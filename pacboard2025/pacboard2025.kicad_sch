@@ -5522,7 +5522,7 @@
 		)
 		(uuid "c40438f5-8c0b-4415-9646-e64c74c6fde3")
 	)
-	(label "1_ENCA"
+	(label "2_PWM1"
 		(at 69.85 76.2 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5555,7 +5555,7 @@
 		)
 		(uuid "ca4c3193-131d-4e05-9d47-0eb9aa2c867a")
 	)
-	(label "2_PWM1"
+	(label "1_ENCA"
 		(at 41.91 50.8 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5654,7 +5654,7 @@
 		)
 		(uuid "dd537411-6dc6-484e-afdc-80b5b0374ea9")
 	)
-	(label "2_PWM2"
+	(label "1_ENCB"
 		(at 41.91 53.34 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5709,7 +5709,7 @@
 		)
 		(uuid "f30b1e16-3892-4947-9da7-faa7a59a3eca")
 	)
-	(label "1_ENCB"
+	(label "2_PWM2"
 		(at 69.85 78.74 0)
 		(fields_autoplaced yes)
 		(effects
