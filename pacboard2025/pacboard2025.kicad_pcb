@@ -8490,7 +8490,7 @@
 	)
 	(gr_rect
 		(start 80 134)
-		(end 103 146)
+		(end 93 146)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -8500,7 +8500,7 @@
 		(uuid "0e01522c-3a51-4a96-8cc6-ac49f0a27abb")
 	)
 	(gr_rect
-		(start 137 134)
+		(start 147 134)
 		(end 160 146)
 		(stroke
 			(width 0.15)
