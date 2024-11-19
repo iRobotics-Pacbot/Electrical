@@ -1,4 +1,4 @@
-23858625304256760
+23860410882211058
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96810,12 +96810,19 @@ Through hole pin header THT 1x04 2.54mm single row
 4
 4
 board1_footprints
+SOD-123FL
+
+
+0
+2
+2
+board1_footprints
 Stemma QT
 Through hole straight socket strip, 1x04, 1.00mm pitch, single row (https://gct.co/files/drawings/bc065.pdf), script generated
 Through hole socket strip THT 1x04 1.00mm single row
 0
-4
-4
+6
+5
 board1_footprints
 ZH1.5-6
 
