@@ -4624,17 +4624,6 @@
 		)
 		(uuid "1d134138-65cf-4cf0-b842-dd6438102e37")
 	)
-	(label "+3.3V"
-		(at 69.85 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f622e5b-0325-444e-99b6-a3f38200e350")
-	)
 	(label "GND"
 		(at 119.38 86.36 180)
 		(fields_autoplaced yes)
@@ -4723,7 +4712,7 @@
 		)
 		(uuid "38be8a6b-fa00-4753-a1a5-b7bb6599c42f")
 	)
-	(label "+12V"
+	(label "12V"
 		(at 207.01 38.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4965,7 +4954,7 @@
 		)
 		(uuid "6faf847c-35bc-4533-acee-16390bfc922f")
 	)
-	(label "+12V"
+	(label "12V"
 		(at 259.08 38.1 0)
 		(fields_autoplaced yes)
 		(effects
