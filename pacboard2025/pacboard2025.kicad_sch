@@ -7191,7 +7191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b508a9b8-8320-490d-ae10-23d3daa9c4ce")
-		(property "Reference" "INTR_TOF"
+		(property "Reference" "INTR_TOF1"
 			(at 35.306 140.716 0)
 			(effects
 				(font
@@ -7257,7 +7257,7 @@
 		(instances
 			(project "pacboard2025"
 				(path "/8e380e0f-b63e-4626-b5ee-6ded4a9a683b"
-					(reference "INTR_TOF")
+					(reference "INTR_TOF1")
 					(unit 1)
 				)
 			)
@@ -7674,7 +7674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d84a449b-ad14-4fd2-b914-6dbcbb6dce75")
-		(property "Reference" "XSHUT_TOF"
+		(property "Reference" "XSHUT_TOF1"
 			(at 30.734 118.872 0)
 			(effects
 				(font
@@ -7738,7 +7738,7 @@
 		(instances
 			(project "pacboard2025"
 				(path "/8e380e0f-b63e-4626-b5ee-6ded4a9a683b"
-					(reference "XSHUT_TOF")
+					(reference "XSHUT_TOF1")
 					(unit 1)
 				)
 			)
