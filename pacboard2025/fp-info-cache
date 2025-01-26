@@ -1,4 +1,4 @@
-23860412087305825
+23862156411825252
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96783,6 +96783,13 @@ J1071AS3VDC.36
 5
 board1_footprints
 Neopixel
+
+
+0
+4
+4
+board1_footprints
+Neopixel_Long_Pins
 
 
 0

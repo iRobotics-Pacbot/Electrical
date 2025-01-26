@@ -2024,6 +2024,141 @@
 				)
 			)
 		)
+		(symbol "Neopixel_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Neopixel_1_0_1"
+				(rectangle
+					(start -6.35 -2.54)
+					(end 6.35 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Neopixel_1_1_1"
+				(pin input line
+					(at -8.89 -11.43 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -3.81 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -7.62 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "board1_libs:D24V50F5"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2751,24 +2886,6 @@
 			)
 			(symbol "Neopixel_1_1"
 				(pin input line
-					(at 8.89 -3.81 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -8.89 -11.43 0)
 					(length 2.54)
 					(name "GND"
@@ -2778,7 +2895,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2796,7 +2913,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2808,6 +2925,24 @@
 					(at -8.89 -7.62 0)
 					(length 2.54)
 					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "DOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3549,6 +3684,12 @@
 		(uuid "ad285b58-4504-4cd1-a3a6-221a59b46693")
 	)
 	(junction
+		(at 359.41 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2419b87-ba2f-4add-85eb-45e1405c9de8")
+	)
+	(junction
 		(at 130.81 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3643,10 +3784,6 @@
 	(no_connect
 		(at 41.91 73.66)
 		(uuid "caf20bf0-f586-48b2-be25-74cded07b3b2")
-	)
-	(no_connect
-		(at 375.92 60.96)
-		(uuid "dce2f95f-0a2d-477c-908d-8c2dfd4640f8")
 	)
 	(no_connect
 		(at 236.22 53.34)
@@ -3789,6 +3926,16 @@
 			(type default)
 		)
 		(uuid "3c433333-b72e-4dd4-8f46-9d7f6f9ee90b")
+	)
+	(wire
+		(pts
+			(xy 375.92 60.96) (xy 375.92 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f552d4b-dc2b-444f-a8d6-ca3ab00cefef")
 	)
 	(wire
 		(pts
@@ -4122,6 +4269,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 55.88) (xy 359.41 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb100e2c-4c6c-4e91-9303-ad18b2bfb69c")
+	)
+	(wire
+		(pts
 			(xy 105.41 81.28) (xy 109.22 81.28)
 		)
 		(stroke
@@ -4149,6 +4306,16 @@
 			(type default)
 		)
 		(uuid "fc2a8a79-b45e-41a5-b6d8-44022aa9cb38")
+	)
+	(wire
+		(pts
+			(xy 359.41 55.88) (xy 359.41 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd272d81-a7a7-4f53-ad96-efeaab0c4f35")
 	)
 	(wire
 		(pts
@@ -4948,7 +5115,7 @@
 		(uuid "80e1b642-1839-4a91-9c71-b2445e75ca31")
 	)
 	(label "GND"
-		(at 383.54 64.77 0)
+		(at 375.92 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6268,74 +6435,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 379.73 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42b605c7-677c-471b-9b47-2057b3e79dd9")
-		(property "Reference" "C6"
-			(at 379.73 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 379.73 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 383.54 63.8048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 379.73 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 379.73 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1341ecb-a1b6-43d8-bd70-9ac27e70bb54")
-		)
-		(pin "2"
-			(uuid "fc673997-5785-4ccc-bb24-75956d332f1d")
-		)
-		(instances
-			(project "pacboard2025"
-				(path "/8e380e0f-b63e-4626-b5ee-6ded4a9a683b"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 184.15 92.71 90)
 		(unit 1)
@@ -7338,6 +7437,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Neopixel_1")
 		(lib_id "board1_libs:Neopixel")
 		(at 142.24 132.08 0)
 		(unit 1)
