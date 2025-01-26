@@ -6630,7 +6630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "board1_footprints:Neopixel"
+		(property "Footprint" "board1_footprints:Neopixels 5050"
 			(at 200.66 132.08 0)
 			(effects
 				(font
@@ -7388,7 +7388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "board1_footprints:Neopixel"
+		(property "Footprint" "board1_footprints:Neopixels 5050"
 			(at 171.45 132.08 0)
 			(effects
 				(font
@@ -7463,7 +7463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "board1_footprints:Neopixel"
+		(property "Footprint" "board1_footprints:Neopixels 5050"
 			(at 142.24 132.08 0)
 			(effects
 				(font
@@ -7870,7 +7870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "board1_footprints:Neopixel"
+		(property "Footprint" "board1_footprints:Neopixels 5050"
 			(at 229.87 132.08 0)
 			(effects
 				(font
