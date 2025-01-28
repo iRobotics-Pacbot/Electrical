@@ -3726,7 +3726,7 @@
 		(uuid "4301710a-9155-4f30-96af-9ea5c802fd49")
 	)
 	(junction
-		(at 105.41 81.28)
+		(at 105.41 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ce0219b-a0a8-4080-ad41-0514f97e5582")
@@ -3850,7 +3850,7 @@
 		(uuid "842dbc4f-9f2a-4cad-b354-fe104d397a83")
 	)
 	(no_connect
-		(at 121.92 91.44)
+		(at 121.92 48.26)
 		(uuid "8c73491f-14c6-4cf7-a64c-318f385bfa47")
 	)
 	(no_connect
@@ -3993,7 +3993,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 86.36) (xy 119.38 86.36)
+			(xy 121.92 43.18) (xy 119.38 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4063,7 +4063,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 83.82) (xy 119.38 83.82)
+			(xy 121.92 40.64) (xy 119.38 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4073,7 +4073,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 88.9) (xy 119.38 88.9)
+			(xy 121.92 45.72) (xy 119.38 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4103,7 +4103,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 81.28) (xy 121.92 81.28)
+			(xy 116.84 38.1) (xy 121.92 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4353,7 +4353,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 81.28) (xy 105.41 81.28)
+			(xy 104.14 38.1) (xy 105.41 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4483,7 +4483,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 81.28) (xy 109.22 81.28)
+			(xy 105.41 38.1) (xy 109.22 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4556,8 +4556,8 @@
 		(uuid 135c7e3e-9dcd-43b2-97ee-86e58fac259c)
 	)
 	(rectangle
-		(start 93.98 64.77)
-		(end 157.48 102.87)
+		(start 93.98 21.59)
+		(end 157.48 59.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -4627,18 +4627,6 @@
 		)
 		(uuid 8b9030e0-b1f6-4fd8-919b-183f8858fe51)
 	)
-	(rectangle
-		(start 93.98 21.59)
-		(end 157.48 59.69)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid aa1e8fef-e41f-48bd-9f86-b364ab5ea0d3)
-	)
 	(text "ESP32 ProS3\n"
 		(exclude_from_sim no)
 		(at 24.13 29.21 0)
@@ -4704,20 +4692,9 @@
 		)
 		(uuid "705db92d-b19e-43d3-b8e4-365645bf493f")
 	)
-	(text "IMU Sensor"
-		(exclude_from_sim no)
-		(at 96.52 27.94 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e74647e-368a-403e-aa99-7e1407030ced")
-	)
 	(text "12-5V Step-Down"
 		(exclude_from_sim no)
-		(at 96.52 71.12 0)
+		(at 96.52 27.94 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -4880,7 +4857,7 @@
 		(uuid "1d134138-65cf-4cf0-b842-dd6438102e37")
 	)
 	(label "GND"
-		(at 119.38 86.36 180)
+		(at 119.38 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5342,7 +5319,7 @@
 		(uuid "8be0935d-e978-4a7e-a12b-1e7c26b9c1d1")
 	)
 	(label "12V"
-		(at 119.38 88.9 180)
+		(at 119.38 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5496,7 +5473,7 @@
 		(uuid "a8e01b7e-10e4-4603-98e7-88406c9fa73f")
 	)
 	(label "GND"
-		(at 119.38 83.82 180)
+		(at 119.38 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5562,7 +5539,7 @@
 		(uuid "be0c3ee3-546f-4f3d-9f49-65154b7523df")
 	)
 	(label "5V"
-		(at 104.14 81.28 180)
+		(at 104.14 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5924,7 +5901,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 105.41 81.28 0)
+		(at 105.41 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5933,7 +5910,7 @@
 		(fields_autoplaced yes)
 		(uuid "029ac8cc-e8b5-4ea2-a52f-afc938bc0984")
 		(property "Reference" "TP2"
-			(at 107.95 76.7079 0)
+			(at 107.95 33.5279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +5919,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 107.95 79.2479 0)
+			(at 107.95 36.0679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5951,7 +5928,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 110.49 81.28 0)
+			(at 110.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5960,7 +5937,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 81.28 0)
+			(at 110.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5969,7 +5946,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 105.41 81.28 0)
+			(at 105.41 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6953,7 +6930,7 @@
 	)
 	(symbol
 		(lib_id "board1_libs:D24V50F5")
-		(at 129.54 81.28 0)
+		(at 129.54 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6961,7 +6938,7 @@
 		(dnp no)
 		(uuid "5be6b226-403f-4e0c-addd-8435e9e6e958")
 		(property "Reference" "U2"
-			(at 127.254 75.438 0)
+			(at 127.254 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6970,7 +6947,7 @@
 			)
 		)
 		(property "Value" "D24V50F5"
-			(at 124.714 78.232 0)
+			(at 124.714 35.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6979,7 +6956,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 128.27 81.28 0)
+			(at 128.27 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6988,7 +6965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 81.28 0)
+			(at 128.27 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6997,7 +6974,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 81.28 0)
+			(at 129.54 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +7144,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 113.03 81.28 0)
+		(at 113.03 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7176,7 +7153,7 @@
 		(fields_autoplaced yes)
 		(uuid "77661d3e-beb7-4f12-b536-8ac3c93deab2")
 		(property "Reference" "D2"
-			(at 113.03 74.93 0)
+			(at 113.03 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,7 +7161,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 113.03 77.47 0)
+			(at 113.03 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7192,7 +7169,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 113.03 81.28 0)
+			(at 113.03 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7201,7 +7178,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 81.28 0)
+			(at 113.03 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7210,7 +7187,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 113.03 81.28 0)
+			(at 113.03 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7219,7 +7196,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 113.03 81.28 0)
+			(at 113.03 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7228,7 +7205,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 113.03 81.28 0)
+			(at 113.03 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
