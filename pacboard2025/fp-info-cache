@@ -1,4 +1,4 @@
-23862156558008789
+23863971632292521
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96774,6 +96774,13 @@ IC_ESP32-S3
 0
 69
 69
+board1_footprints
+IFX-PG-TSDSON-8-901-G-V
+Original name <b>IFX-PG-TSDSON-8-901-G-V</b><p>Max Component Height - 0.9mm
+
+0
+8
+8
 board1_footprints
 J107
 
