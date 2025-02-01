@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "board1_libs")(type "KiCad")(uri "/Users/hannahdinner/Documents/Documents/School/College/iRobotics/Electrical/pacboard2025/board1_libs.kicad_sym")(options "")(descr ""))
+  (lib (name "Pacbots2023")(type "KiCad")(uri "/Users/hannahdinner/Documents/Documents/School/College/iRobotics/Electrical/pacboard2023/board1_libs.kicad_sym")(options "")(descr ""))
+)
