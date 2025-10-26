@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "fa25pacboard")(type "KiCad")(uri "${KIPRJMOD}/fa25pacboard.kicad_sym")(options "")(descr ""))
+)
